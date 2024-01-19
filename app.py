@@ -8,7 +8,7 @@ with open('iris.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Load the dataset for reference
-iris_df = pd.read_csv('iris.csv')
+iris_df = pd.read_csv('IRIS.csv')
 
 # Create a simple form for user input
 st.title('Iris Flower Prediction App')
